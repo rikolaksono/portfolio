@@ -44,53 +44,51 @@ function scrollActive() {
 }
 // scroll reveal animation
 const sr = ScrollReveal({
-  origin: 'top',
-  distance: '80px',
+  origin: "top",
+  distance: "80px",
   duration: 2000,
-  reset: true
-})
+  reset: true,
+});
 
 // scroll home
-sr.reveal('.home_title', {})
-sr.reveal('.home_scroll', {
-  delay: 200
-})
-sr.reveal('.home_img', {
-  origin: 'right',
-  delay: 400
-})
+sr.reveal(".home_title", {});
+sr.reveal(".home_scroll", {
+  delay: 200,
+});
+sr.reveal(".home_img", {
+  origin: "right",
+  delay: 400,
+});
 // scroll about
-sr.reveal('.about_img', {
-  delay: 500
-})
-sr.reveal('.about_subtitle', {
-  delay: 300
-})
-sr.reveal('.about_profesi', {
-  delay: 400
-})
-sr.reveal('.about_text', {
-  delay: 500
-})
-sr.reveal('.about_social-icon', {
+sr.reveal(".about_img", {
+  delay: 500,
+});
+sr.reveal(".about_subtitle", {
+  delay: 300,
+});
+sr.reveal(".about_profesi", {
+  delay: 400,
+});
+sr.reveal(".about_text", {
+  delay: 500,
+});
+sr.reveal(".about_social-icon", {
   delay: 600,
-  interval: 200
-})
+  interval: 200,
+});
 
 // scroll portfolio
-sr.reveal('.portfolio_img', {
-  interval: 200
-})
+sr.reveal(".portfolio_img", {
+  interval: 200,
+});
 // scroll contact
-sr.reveal('.contact_subtitle', {})
-sr.reveal('.contact_text', {
-  interval: 200
-})
-sr.reveal('.contact_input', {
-  delay: 400
-})
-sr.reveal('.contact_button', {
-  delay: 600
-})
-// footer
-function ('[data-bs-toggle="tooltip"]').tooltip()
+sr.reveal(".contact_subtitle", {});
+sr.reveal(".contact_text", {
+  interval: 200,
+});
+sr.reveal(".contact_input", {
+  delay: 400,
+});
+sr.reveal(".contact_button", {
+  delay: 600,
+});
