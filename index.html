@@ -1,216 +1,242 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap v5.0 -->
+    <link
+      href="assets/css/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- box icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>portfolio-riko.laksono</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- bootstrap v5.0 -->
-  <link href="assets/css/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- css -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- box icon -->
-  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-  <title>portfolio-riko.laksono</title>
-</head>
+  <body>
+    <!-- header -->
+    <header class="l-header">
+      <nav class="nav bg-grid">
+        <div>
+          <a href="#" class="nav_logo">Riko Laksono</a>
+        </div>
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link active">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link active">Portfolio</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="home_container bg-grid">
+        <h1 class="home_title"><span>HA</span><br />LLO.</h1>
 
-<body>
-  <!-- header -->
-  <header class="l-header">
-    <nav class="nav bg-grid">
-      <div>
-        <a href="#" class="nav_logo">Riko Laksono</a>
-      </div>
-      <div class="nav_menu" id="nav_menu">
-        <ul class="nav_list">
-          <li class="nav_item">
-            <a href="#home" class="nav_link active">Home</a>
-          </li>
-          <li class="nav_item">
-            <a href="#about" class="nav_link active">About</a>
-          </li>
-          <li class="nav_item">
-            <a href="#portfolio" class="nav_link active">Portfolio</a>
-          </li>
-          <li class="nav_item">
-            <a href="#contact" class="nav_link active">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="nav_toggle" id="nav_toggle">
-        <i class="bx bx-menu"></i>
-      </div>
-    </nav>
-  </header>
-  <!-- home -->
-  <section class="home" id="home">
-    <div class="home_container bg-grid">
-      <h1 class="home_title"><span>HA</span><br />LLO.</h1>
-
-      <div class="home_scroll">
-        <a href="#about" class="home_scroll-link"><i class="bx bx-up-arrow-alt"></i>Scroll Down</a>
-      </div>
-      <img src="assets/img/profil.png" alt="" class="home_img" />
-    </div>
-  </section>
-  <!-- about -->
-  <section class="about section" id="about">
-    <h2 class="section-title">About</h2>
-    <div class="about_container bd-grid">
-      <div class="about_img">
-        <img src="assets/img/profil.png" alt="" />
-      </div>
-      <h2 class="about_subtitle">Riko Laksono</h2>
-      <span class="about_profesi">Product and Project Implementation</span>
-      <p class="about_text">
-        Deployment ke End User; Melakukan End to End Testing sesuai dengan
-        bisnis Requirement; Melakukan SIT,UAT,PTR dengan pihak bank atau
-        vendor; Melakukan feedback dari Team Service Operation terhadap semua
-        Production Issues; Memberikan feedback kepada Lead Enginer;
-        Documentasi product yang sudah Live Production (Document Implementasi,
-        User Guide Setting Parameter); Menjadi koodinator Product Owner;
-        Melakukan Training product ke Team Service Operation; Membuat User
-        gate untuk Mitra/Customer.
-      </p>
-      <div class="about_social">
-        <a href="#" class="about_social-icon"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="about_social-icon"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="about_social-icon"><i class="bx bxl-github"></i></a>
-      </div>
-    </div>
-  </section>
-  <!-- portfolio -->
-  <section class="portfolio section" id="portfolio">
-    <h2 class="section-title">Portfolio</h2>
-    <div class="portfolio_container bd-grid">
-      <div class="portfolio_img">
-        <img src="assets/img/work1.jpeg" alt="" />
-        <div class="portfolio_link">
-          <a href="#" class="portfolio_link-name">View Detail</a>
+        <div class="home_scroll">
+          <a href="#about" class="home_scroll-link"
+            ><i class="bx bx-up-arrow-alt"></i>Scroll Down</a
+          >
         </div>
+        <img src="assets/img/profil.png" alt="" class="home_img" />
       </div>
-      <div class="portfolio_img">
-        <img src="assets/img/work2.jpeg" alt="" />
-        <div class="portfolio_link">
-          <a href="#" class="portfolio_link-name">View Detail</a>
+    </section>
+    <!-- about -->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+      <div class="about_container bd-grid">
+        <div class="about_img">
+          <img src="assets/img/profil.png" alt="" />
         </div>
-      </div>
-      <div class="portfolio_img">
-        <img src="assets/img/work3.jpeg" alt="" />
-        <div class="portfolio_link">
-          <a href="#" class="portfolio_link-name">View Details</a>
-        </div>
-      </div>
-      <div class="portfolio_img">
-        <img src="assets/img/work4.jpeg" alt="" />
-        <div class="portfolio_link">
-          <a href="#" class="portfolio_link-name">View Details</a>
-        </div>
-      </div>
-      <div class="portfolio_img">
-        <img src="assets/img/work5.jpeg" alt="" />
-        <div class="portfolio_link">
-          <a href="#" class="portfolio_link-name">View Details</a>
-        </div>
-      </div>
-      <div class="portfolio_img">
-        <img src="assets/img/work6.jpeg" alt="" />
-        <div class="portfolio_link">
-          <a href="#" class="portfolio_link-name">View Details</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- contact -->
-  <section class="contact section" id="contact">
-    <h2 class="section-title">Contact</h2>
-
-    <div class="contact_container bd-grid">
-      <div class="contact_info">
-        <h3 class="contact_subtitle">Email</h3>
-        <span class="contact_text">riko.laksono33@gmail.com</span>
-        <h3 class="contact_subtitle">Phone</h3>
-        <span class="contact_text">+68 828-982-8043</span>
-        <h3 class="contact_subtitle">Cempaka Putih Timur</h3>
-        <span class="contact_text">Jakarta Pusat</span>
-      </div>
-      <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-        <strong>Thank You!</strong> Your Message has been Received
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-      <form action="" class="contact_form" name='submit-to-google-sheet'>
-        <div class="contact_inputs">
-          <input type="text" placeholder="Name" name="nama" class="contact_input" />
-          <input type="email" placeholder="Email" name="email" class="contact_input" />
-        </div>
-        <textarea name="pesan" id="" cols="0" rows="10" class="contact_input"></textarea>
-        <input type="submit" value="Send" class="contact_button btn-kirim" />
-        <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-          Loading...
-        </button>
-      </form>
-    </div>
-  </section>
-  <!-- footer -->
-  <footer class="footer section">
-    <div class="footer_container bd-grid">
-      <div class="footer_data">
-        <h2 class="footer_title">RIKO LAKSONO</h2>
-        <p class="footer_text">
-          I'am Riko Laksono and this is my personal website
+        <h2 class="about_subtitle">Riko Laksono</h2>
+        <span class="about_profesi">Product and Project Implementation</span>
+        <p class="about_text">
+          Deployment ke End User; Melakukan End to End Testing sesuai dengan
+          bisnis Requirement; Melakukan SIT,UAT,PTR dengan pihak bank atau
+          vendor; Melakukan feedback dari Team Service Operation terhadap semua
+          Production Issues; Memberikan feedback kepada Lead Enginer;
+          Documentasi product yang sudah Live Production (Document Implementasi,
+          User Guide Setting Parameter); Menjadi koodinator Product Owner;
+          Melakukan Training product ke Team Service Operation; Membuat User
+          gate untuk Mitra/Customer.
         </p>
+        <div class="about_social">
+          <a href="#" class="about_social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="#" class="about_social-icon"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="#" class="about_social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
       </div>
-      <div class="footer_data">
-        <h2 class="footer_title">EXPLORE</h2>
-        <ul>
-          <li><a href="#home" class="footer_link">Home</a></li>
-          <li><a href="#about" class="footer_link">About</a></li>
-          <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
-          <li><a href="#contact" class="footer_link">Contact</a></li>
-        </ul>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio_container bd-grid">
+        <div class="portfolio_img">
+          <img src="assets/img/work1.jpeg" alt="" />
+          <div class="portfolio_link">
+            <a href="#" class="portfolio_link-name">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio_img">
+          <img src="assets/img/work2.jpeg" alt="" />
+          <div class="portfolio_link">
+            <a href="#" class="portfolio_link-name">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio_img">
+          <img src="assets/img/work3.jpeg" alt="" />
+          <div class="portfolio_link">
+            <a href="#" class="portfolio_link-name">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio_img">
+          <img src="assets/img/work4.jpeg" alt="" />
+          <div class="portfolio_link">
+            <a href="#" class="portfolio_link-name">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio_img">
+          <img src="assets/img/work5.jpeg" alt="" />
+          <div class="portfolio_link">
+            <a href="#" class="portfolio_link-name">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio_img">
+          <img src="assets/img/work6.jpeg" alt="" />
+          <div class="portfolio_link">
+            <a href="#" class="portfolio_link-name">View Details</a>
+          </div>
+        </div>
       </div>
-      <div class="footer_data">
-        <h2 class="footer_title">FOLLOW</h2>
-        <a href="#" class="footer_social"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="footer_social"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
-      </div>
-    </div>
-  </footer>
-  <!-- scroll reveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- main js -->
-  <script src="assets/js/main.js"></script>
-  <!-- submit to google sheet -->
-  <script>
-    const scriptURL =
-      'https://script.google.com/macros/s/AKfycbzoaFEsDSkzqOQGFoQRQf4jh6q7CmDgiRhAyldiDM0IwaaKQZGDkIPtpKwLW0wXj1hmdw/exec';
-    const form = document.forms['submit-to-google-sheet'];
-    const btnKirim = document.querySelector('.btn-kirim');
-    const btnLoading = document.querySelector('.btn-loading');
-    const myAlert = document.querySelector('.my-alert');
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      // ketika tombol submit diklik
-      // tampilkan tombol loading, hilangkan tombol kirim 
-      btnLoading.classList.toggle('d-none');
-      btnKirim.classList.toggle('d-none');
-      fetch(scriptURL, {
-          method: 'POST',
-          body: new FormData(form)
-        })
-        // tampilkan tombol kirim, hilangkan tombol loading 
-        .then(response => {
-          btnLoading.classList.toggle('d-none');
-          btnKirim.classList.toggle('d-none');
-          // tampilkan alerrt
-          myAlert.classList.toggle('d-none');
-          // form reset
-          form.reset();
-          console.log('Success!', response)
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-</body>
+    </section>
+    <!-- contact -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
 
+      <div class="contact_container bd-grid">
+        <div class="contact_info">
+          <h3 class="contact_subtitle">Email</h3>
+          <span class="contact_text">riko.laksono33@gmail.com</span>
+          <h3 class="contact_subtitle">Phone</h3>
+          <span class="contact_text">+68 828-982-8043</span>
+          <h3 class="contact_subtitle">Address</h3>
+          <span class="contact_text">Jakarta Pusat</span>
+        </div>
+        <form action="" class="contact_form" name="submit-to-google-sheet">
+          <div class="contact_inputs">
+            <input
+              type="text"
+              placeholder="Name"
+              name="nama"
+              class="contact_input"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              class="contact_input"
+            />
+          </div>
+          <textarea
+            name="pesan"
+            placeholder="Message"
+            id=""
+            cols="0"
+            rows="7"
+            class="contact_input"
+          ></textarea>
+          <input type="submit" value="Send" class="contact_button btn-kirim" />
+          <button
+            class="btn btn-primary btn-loading d-none"
+            type="button"
+            disabled
+          >
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            Loading...
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer section">
+      <div class="footer_container bd-grid">
+        <div class="footer_data">
+          <h2 class="footer_title">RIKO LAKSONO</h2>
+          <p class="footer_text">
+            I'am Riko Laksono and this is my personal website
+          </p>
+        </div>
+        <div class="footer_data">
+          <h2 class="footer_title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer_link">Home</a></li>
+            <li><a href="#about" class="footer_link">About</a></li>
+            <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
+            <li><a href="#contact" class="footer_link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer_data">
+          <h2 class="footer_title">FOLLOW</h2>
+          <a href="#" class="footer_social"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="footer_social"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <!-- submit to google sheet -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzoaFEsDSkzqOQGFoQRQf4jh6q7CmDgiRhAyldiDM0IwaaKQZGDkIPtpKwLW0wXj1hmdw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      // ketika tombol submit diklik
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // tampilkan tombol loading, hilangkan tombol kirirm
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            alert("Thank You! Your Message has been Received...", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+        form.reset();
+      });
+    </script>
+  </body>
 </html>

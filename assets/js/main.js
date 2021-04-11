@@ -92,3 +92,5 @@ sr.reveal('.contact_input', {
 sr.reveal('.contact_button', {
   delay: 600
 })
+// footer
+function ('[data-bs-toggle="tooltip"]').tooltip()
